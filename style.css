@@ -1,0 +1,133 @@
+body {
+    background: url(green1.jpg) repeat;
+    text-align: center;
+    font-family: 'Libre Baskerville', sans-serif;
+    padding: 0;
+    border: 0;
+}
+
+
+.main-supporting {
+        position: relative;
+        margin: 0 290px 0 200px;
+        text-align: left;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+.requirements {
+    background-color: #34964E;
+    border-radius: 20px;
+    padding:20px;
+}
+.main-supporting p{
+    color:#152904;
+    text-align: center;
+}
+
+.requirements p:last-child{
+    font-style: italic;
+}
+
+a {
+    color:#214412;
+}
+
+a:visited
+	{
+	color: #4F3214;
+	border: none;
+	}
+	
+a:hover
+	{
+	color: #214412;
+    border-bottom: 1px solid #333331;
+    }
+
+.intro h1 {
+    font:  bold 4em verdana;
+	color:#1D210F;
+    }
+.intro h2 {
+    font:  italic verdana;
+    color:#3F8F65;
+    border: 1 solid #477B13;
+    background: white
+}
+
+.intro header {
+    border-top: 20px solid #477B13;
+    background: url(leaves.jpg);
+    margin: 0px;
+}
+
+#zen-summary p {
+    font:  normal 60% verdana;
+    color:#12120D;
+    text-align: center;
+}
+
+.sidebar {
+    position: absolute;
+    top: 250px;
+    right: 0;
+    width: 270px;
+    color: #65BD16;
+    background: url(index.jpeg);
+    border: 10px solid url(index.jpeg);
+    text-align: left;
+    border-radius:20px;
+    padding:10px;
+    font-size: 150%;
+}
+
+.summary, .preamble{
+    position: relative;
+    margin: 0 290px 0 200px;
+    text-align: center;
+    font-family: bold 'Times New Roman', Times, serif;
+    font-size: 150%;
+    color:#232315;
+}
+
+
+footer  {
+margin: 3em 0 0 0;
+font: bold 9px/3em tahoma, verdana, sans-serif;
+text-transform: uppercase;
+letter-spacing: 1px;
+padding-bottom: 2em;
+text-align: center;
+}
+
+h3 {
+    font:"Lucida Console", Monaco, monospace;
+    text-indent: 50px;
+}
+
+li {
+    color:#214412;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.design-name {
+    color:#214412;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin:10px;
+    background: url(index.jpeg)
+}
+
+.designer-name  {
+    color:#352204;
+    text-transform: lowercase;
+    font-weight: bold;
+}
+
+.sidebar h3 {
+    font-weight: bold;
+    color:rgba(131, 27, 12, 0.69);
+    text-align: center;
+    padding: 1;
+    border: 2px dotted rgba(131, 27, 12, 0.69);
+}
